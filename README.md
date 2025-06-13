@@ -34,7 +34,7 @@ Creating a robust database is a critical first step in data engineering. A well-
 
 ## Conclusion
 
-This project provides a comprehensive introduction to the creation and management of databases within the context of data science. By completing these exercises, participants will gain practical experience in setting up databases, managing data, and preparing it for analysis, which are essential skills for any data engineer.
+This project provides a comprehensive introduction to the creation and management of databases within the context of data science. By completing these project, gain practical experience in setting up databases, managing data, and preparing it for analysis, which are essential skills for any data engineer.
 
 ## License
 
