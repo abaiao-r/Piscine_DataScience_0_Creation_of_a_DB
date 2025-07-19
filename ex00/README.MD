@@ -58,27 +58,6 @@ psql -U abaiao-r -d piscineds -h localhost -W
    ```
     piscineds=#
 ```
-
-🎯 **Why This Works**
-
-Here's a simple ASCII diagram to illustrate the connection:
-
-```
-+------------------------------+
-| Your PC (psql CLI)           |
-|                              |
-| psql -U abaiao-r -W          |
-+-------------+----------------
-              |
-              ↓ localhost:5432
-+------------------------------+
-| Docker Container: postgres   |
-| - User: abaiao-r             |
-| - DB: piscineds              |
-| - Pass: mysecretpassword     |
-+------------------------------+
-```
-
 ---
 
 🧪 **Useful PostgreSQL Commands**
