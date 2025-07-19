@@ -48,4 +48,10 @@ info:
 	@docker network ls
 	@echo "------------------------------------------------------------"
 
-.PHONY: up down psql logs stop clean fclean re info
+ps:
+	docker ps
+
+open-pgadmin:
+	open http://localhost:8080 || xdg-open http://localhost:8080 || echo "Open manually → http://localhost:8080"
+
+.PHONY: up down psql logs stop clean fclean re info ps open-pgadmin
